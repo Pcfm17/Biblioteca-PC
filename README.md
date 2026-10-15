@@ -59,7 +59,18 @@ int main(){
 
 No final de tudo nós iremos ter conseguido fazer um jogo de Adivinhação.
 
+#include<iostream>
+using namespace std;
 
+int main(){
+   cout << "*****************" << endl;
+   cout << "Bem vindos ao jogo de Adivinhação" << endl;
+   cout << "*****************" << endl;
+
+   int numero_secreto = 42;
+   cout << "O númerosecreto é " << numero_secreto << " . Nãoconte para ninguém." << endl;
+
+}
 
 
 
